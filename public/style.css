@@ -4,9 +4,15 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+    font-family:'poppins',sans-serif;
+    font-size: 18px;
 
 }
 
 body{
     background-color: black;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    
 }
