@@ -1,0 +1,64 @@
+#achievements {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .achieveTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .achieveContainer {
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+  }
+  
+  .achieveItem {
+    margin: 1.5rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+  }
+  
+  .achieveItemTitle {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .achieveItemDesc {
+    font-size: 0.9rem;
+    font-weight: 200;
+  }
+  .achieveDesc{
+    font-weight: 200;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .achieveItemDesc {
+      font-size: 2vw;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .achieveItemDesc {
+      font-size: 3vw;
+    }
+    .achieveItemTitle {
+      font-size: 4vw;
+    }
+  }
+  

@@ -1,0 +1,60 @@
+#education {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .educationTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .degree{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .institution{
+    font-size: 1rem;
+    font-weight: 400;
+   
+  }
+  .duration{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+  }
+  .educationDesc {
+    font-weight: 200;
+    font-size: 1rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+  }
+  
+  .educationList {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+  }
+  
+  .educationItem {
+   
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+  }
+  .description{
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+
+  
