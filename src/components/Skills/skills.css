@@ -80,13 +80,16 @@
     .skillBarText > p{
         font-size: 3vw;
     }
+    .skillBarText > h2{
+        font-size: 4vw;
+    }
     .skillBarImg{
         height: 2.25rem;
         width: 2.25rem;
 
     }
     .skillBarText{
-        font-size: 5vw;
+        font-size: 3.9vw;
     }
     
 }
