@@ -12,6 +12,7 @@ body {
     background-color: black;
     color: white;
     overflow-y: scroll;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 html {
