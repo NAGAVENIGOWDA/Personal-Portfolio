@@ -13,7 +13,7 @@
     top: 9rem;
     right: 0;
     object-fit: cover;
-   
+    border-radius: 3rem;
 }
 
 .introContent {

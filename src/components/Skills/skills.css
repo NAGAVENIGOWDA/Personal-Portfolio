@@ -84,15 +84,13 @@
         font-size: 4vw;
     }
     .skillBarText > h4{
-        font-size: 3vw;
+        font-size: 2vw;
     }
     .skillBarImg{
         height: 2.25rem;
         width: 2.25rem;
 
     }
-    .skillBarText{
-        font-size: 3.9vw;
-    }
+    
     
 }
