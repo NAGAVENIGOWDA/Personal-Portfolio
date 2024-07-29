@@ -1,22 +1,23 @@
 .navbar{
 
-height: 5rem;
-width: 100vw;
-margin: 0 auto; /*top-bottom left-right*/
-padding: 1rem 2rem;
-display: flex;
-align-items: center;
-justify-content:space-between;
-position: sticky;
-top: 0;
-z-index: 3;
-max-width: 75rem;
+    height: 5rem; /* Default height for larger screens */
+    width: 100%;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Optional shadow for better visibility */
 
 }
 
 .logo{
     object-fit: cover;
-    height: 8rem;
+    height: 5rem;
     width: 8rem; /*relative to root font size*/
 
 
@@ -82,14 +83,43 @@ max-width: 75rem;
     object-fit: cover;
     height: 1.8rem;
 }
-@media screen and (max-width:970px){
-    .mobMenu{
+@media screen and (max-width: 970px) {
+    .navbar {
+        height: 4rem; /* Reduced height for smaller screens */
+        padding: 0.5rem 1rem; /* Adjust padding */
+    }
+
+    .logo {
+        height: 2.5rem; /* Adjust logo size for smaller screens */
+    }
+
+    .desktopMenu {
+        display: none;
+    }
+
+    .desktopMenuBtn {
+        display: none;
+    }
+
+    .mobMenu {
         display: flex;
     }
-    .desktopMenu{
-        display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        height: 2.9rem; /* Further reduced height for very small screens */
+        padding: 0.5rem; /* Adjust padding */
     }
-    .desktopMenuBtn{
-        display: none;
+
+    .logo {
+        height: 2rem; /* Adjust logo size for very small screens */
+    }
+
+    .NavMenu {
+        width: 12rem; /* Reduce width for very small screens */
+    }
+    .mobMenu{
+        width: 2rem;
     }
 }

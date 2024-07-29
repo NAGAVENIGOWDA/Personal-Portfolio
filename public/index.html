@@ -18,8 +18,34 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
  
     <title>Nagaveni's Portfolio</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        background: transparent;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+      
+    }
+    
+    html, body {
+        width: 100%;
+       /* Prevent horizontal scrolling */
+    }
+    
+    body {
+        background-color: black;
+        color: white;
+        overflow: hidden;
+        overflow-y: scroll; /* Enable vertical scrolling */
+    }
+    
+    </style>
   </head>
-  <body>
+  <body >
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     
