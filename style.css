@@ -1,18 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
-    font-family:'poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
-
+  
 }
 
-body{
+html, body {
+    width: 100%;
+    overflow: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
     background-color: black;
     color: white;
-    overflow: hidden;
-    overflow-y: scroll;
-    
+    overflow-y: scroll; /* Enable vertical scrolling */
 }
